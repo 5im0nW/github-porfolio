@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+.mt-075 {
+	margin-top: 0.75rem;
+}
+
 /* Page */
 
 	@-moz-keyframes load-spinner {
@@ -324,7 +328,8 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 1.5rem 0;
+		margin: 0 0 0.25rem 0; /*margin: 0 0 1.5rem 0; */
+		font-size: 1.25rem;
 	}
 
 		body.is-ie p {
@@ -3569,7 +3574,7 @@ input, select, textarea {
 		transition-delay: 0.25s;
 		cursor: default;
 		position: relative;
-		height: 32rem;
+		height: 38rem; /* 32rem */
 		box-shadow: 0 2rem 4rem 0.25rem rgba(46, 43, 55, 0.575);
 	}
 
